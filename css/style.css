@@ -1,0 +1,40 @@
+body {
+    background: #000000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li a {
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+.menu ul li:hover {
+    background: #192525;
+    border-color: #fff;
+}
+
+.menu ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+    list-style-type: none;
+    float: left;
+}
+
+.menu {
+    background: #ffffff52;
+    width: 100%;
+    display: block;
+    line-height: .5;
+}
+
+.menu ul {
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
