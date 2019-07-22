@@ -2,7 +2,11 @@ body {
     background: #000000;
     color: #fff;
 }
-
+.banner {
+    height: 300px;
+    text-align: center;
+    background: url(images/laptop-bg.jpg);
+}
 a {
     text-decoration: none;
 }
