@@ -2,10 +2,24 @@ body {
     background: #000000;
     color: #fff;
 }
+.banner-overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: #115b862e;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .banner {
-    height: 300px;
+    color: #000;
+    height: 500px;
     text-align: center;
-    background: url(images/laptop-bg.jpg);
+    background: url(../images/laptop-bg.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a {
     text-decoration: none;
