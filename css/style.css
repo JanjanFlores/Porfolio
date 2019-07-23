@@ -1,6 +1,7 @@
 body {
     background: #000000;
     color: #fff;
+    background: url(../images/laptop-bg.jpg);
 }
 .banner-overlay {
     height: 100%;
@@ -16,7 +17,6 @@ body {
     color: #000;
     height: 500px;
     text-align: center;
-    background: url(../images/laptop-bg.jpg);
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
