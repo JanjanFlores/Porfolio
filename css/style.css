@@ -1,18 +1,12 @@
 body {
-    background: #000000;
     color: #fff;
+    background-size: cover !important;
     background: url(../images/laptop-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-attachment: fixed;
 }
-.banner-overlay {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    background: #115b862e;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+ 
 .banner {
     color: #000;
     height: 500px;
@@ -44,7 +38,7 @@ a {
 }
 
 .menu {
-    background: #ffffff52;
+    background: #00000052;
     width: 100%;
     display: block;
     line-height: .5;
@@ -55,4 +49,104 @@ a {
     text-align: center;
     margin: 0 auto;
     width: 50%;
+}
+.first-div{
+    margin-top: 50px;
+    width: 30%;
+    float: left;  
+}
+.second-div {
+    margin-top: 50px;
+    width: 70%;
+    float: left;
+}
+
+.first-div img {
+    width: 220px;
+    border: 1px solid #0000003d;
+    border-radius: 250px;
+}
+div#skillset {
+    text-align: left;
+}
+.banner-content {
+    width: 100%;
+    margin: 0 auto;
+}
+.chat-bubble {
+background: #000104;
+    border-radius: 35px;
+    text-align: left;
+    border-bottom-left-radius: 0;
+    color: #fff;
+    min-width: 50px;
+    padding-top: .5rem!important;
+    padding-right: 1.5rem!important;
+    padding-bottom: .5rem!important;
+    padding-left: 1.5rem!important;
+    display: inline-block;
+    top: -170px;
+    position: relative;
+}
+.second-div h1 {
+    display: block;
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.second-div p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.banner-btn a {
+    width: 150PX;
+    border-radius: 20px;
+    padding: 10PX 20px;
+    border: 1px solid #00000000;
+    color: #fff;
+    background: #000;
+    margin-top:20px;
+    margin-left: 20px;
+    display: inherit;
+    transition: 0.5s;
+}
+ 
+
+.banner-btn {
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fa-eye:before {
+    content: "\f06e";
+    font-family: fontAwesome;
+    font-style: normal;
+}
+.banner-btn a:hover {
+    color: #000;
+    background: #ffffff;
+}
+.projects img {
+    width: 280px;
+}
+
+.proj-container {
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+.proj-container {
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.proj-container:hover {
+    border-color: black;
+}
+.proj-container h6 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
 }
