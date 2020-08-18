@@ -1,7 +1,6 @@
 body {
     color: #fff;
     background-size: cover !important;
-    
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-attachment: fixed;
@@ -276,8 +275,19 @@ background: #000104;
 .first-sec p {
     margin: 0;
 }
- 
+ ul.main-menu li a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 2;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+ul.main-menu li:hover a {
+    color: #6cd4fb;
+}
 header {
+    z-index:9999;
     top: 0;
     position: fixed;
     background-attachment: fixed;
