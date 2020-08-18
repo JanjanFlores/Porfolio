@@ -1,7 +1,7 @@
 body {
     color: #fff;
     background-size: cover !important;
-    background: url(../images/laptop-bg.jpg);
+    
     background-repeat: no-repeat;
     background-position: 0 50%;
     background-attachment: fixed;
@@ -149,4 +149,35 @@ background: #000104;
     font-size: 20px;
     margin: 0;
     padding-top: 10px;
+}
+
+.first-sec img {
+    width: 160px;
+    border-radius: 150px;
+}
+
+.first-sec {
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.first-sec h1 {
+    margin-bottom: 0;
+}
+
+.first-sec p {
+    margin: 0;
+}
+ 
+header {
+    background-attachment: fixed;
+    width: 100%;
+    background: url(https://janjanflores.github.io/Porfolio/images//digital-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
 }
