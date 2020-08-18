@@ -6,6 +6,9 @@ body {
     background-position: 0 50%;
     background-attachment: fixed;
 }
+.first-sec {
+    background: #fff;
+}
 .fa {
   padding: 5px;
   font-size: 30px;
