@@ -7,9 +7,9 @@ body {
     background-attachment: fixed;
 }
 .fa {
-  padding: 20px;
+  padding: 5px;
   font-size: 30px;
-  width: 50px;
+  width: auto;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
