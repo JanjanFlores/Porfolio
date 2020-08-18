@@ -5,6 +5,17 @@ body {
     background-position: 0 50%;
     background-attachment: fixed;
 }
+section#about {
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section#about h1 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+}
 img.img-responsive {
     display: block;
     max-width: 100%;
