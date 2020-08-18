@@ -9,7 +9,7 @@ body {
 img.img-responsive {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 .caption-content {
