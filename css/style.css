@@ -10,7 +10,26 @@ section#about {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+section#about div#left {
+    width: 49.9999%;
+    text-align: right;
+    display: inline-flex;
+}
+ 
 
+div#right {
+    width: 48.9999%;
+    display: inline-flex;
+}
+ 
 section#about h1 {
     color: #fff;
     font-size: 45px;
@@ -219,7 +238,7 @@ background: #000104;
     width: 150PX;
     border-radius: 20px;
     padding: 10PX 20px;
-    border: 1px solid #00000000;
+    border: 1px solid #fff;
     color: #fff;
     background: #000;
     margin-top:20px;
