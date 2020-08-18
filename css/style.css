@@ -298,10 +298,14 @@ background: #000104;
     width: 160px;
     border-radius: 150px;
 }
-
+.profile-content {
+    position: absolute;
+    z-index: 99;
+    top: 30%;
+    width: 100%;
+}
 .first-sec {
     text-align: center;
-    padding-bottom: 50px;
     padding-top: 120px;
     color: #fff;
 }
