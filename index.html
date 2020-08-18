@@ -214,7 +214,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</script>
+<script>
 // This is a functions that scrolls to #{blah}link
 function goToByScroll(id) {
     // Remove "link" from the ID
@@ -225,7 +225,7 @@ function goToByScroll(id) {
     }, 'slow');
 }
 
-$("ul.main-menu > li > a").click(function(e) {
+$('ul.main-menu > li > a').click(function(e) {
     // Prevent a page reload when a link is pressed
     e.preventDefault();
     // Call the scroll function
