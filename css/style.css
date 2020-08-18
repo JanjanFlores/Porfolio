@@ -6,8 +6,31 @@ body {
     background-position: 0 50%;
     background-attachment: fixed;
 }
+.right-col {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-col {
+    display: inline-block;
+    float: right;
+    line-height: 3;
+}
+
+nav {width: 100%;display: block;}
+
+ul.main-menu {
+    width: 100%;
+}
+
+ul.main-menu li {
+    display: inline-flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .first-sec {
-    background: #fff;
+    background: #000;
 }
 .fa {
   padding: 5px;
