@@ -234,7 +234,7 @@ background: #000104;
     font-size: 20px;
 }
 
-a.banner-btn {
+.banner-btn a {
     width: 150PX;
     border-radius: 20px;
     padding: 10PX 20px;
