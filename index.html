@@ -213,5 +213,24 @@
 	</section>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</script>
+// This is a functions that scrolls to #{blah}link
+function goToByScroll(id) {
+    // Remove "link" from the ID
+    id = id.replace("link", "");
+    // Scroll
+    $('html,body').animate({
+        scrollTop: $("#" + id).offset().top
+    }, 'slow');
+}
 
-</body></html>
+$("ul.main-menu > li > a").click(function(e) {
+    // Prevent a page reload when a link is pressed
+    e.preventDefault();
+    // Call the scroll function
+    goToByScroll(this.id);
+});
+</script>
+</body>
+</html>
