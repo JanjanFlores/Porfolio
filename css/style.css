@@ -5,6 +5,11 @@ body {
     background-position: 0 50%;
     background-attachment: fixed;
 }
+.copyright {
+    padding: 20px 0 !important;
+    display: block;
+    color: #000;
+}
 section#about {
     background: #000;
     padding-top: 50px;
