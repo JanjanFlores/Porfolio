@@ -5,6 +5,7 @@ body {
     background-position: 0 50%;
     background-attachment: fixed;
 }
+
 div#left span {
     padding-left: 60px;
 }
@@ -368,4 +369,43 @@ section.portfolio .container {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+ 
+        header .left-col {
+            width: 80%;
+        }
+
+        ul#scrolling-menu {
+            padding: 0;
+        }
+
+        section#portfolio .container {
+            width: auto;
+        }
+
+        .row .first, .row .second, .row .third {
+            width: 100%;
+        }
+
+
+        section#about .container {
+            width: auto;
+        }
+
+        div#left span {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section#about div#left {
+            width: 100%;
+        }
+
+        div#right {
+            width: 100%;
+        }
+
 }
